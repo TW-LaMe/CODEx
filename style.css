@@ -1,0 +1,10 @@
+body {
+  background-color: beige;
+  font-family: Verdana;
+  word-break: normal;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
