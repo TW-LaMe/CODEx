@@ -8,3 +8,9 @@ a:link {
   color: green;
   text-decoration: none;
 }
+
+h1 {
+  font-size: (x)px;
+  font-weight: bolder;
+
+}
