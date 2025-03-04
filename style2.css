@@ -60,3 +60,11 @@
       flex-direction: column;
     }
   }
+
+a {
+  color: whitesmoke
+}
+
+h6 em a {
+  color: #3e4b54
+}
