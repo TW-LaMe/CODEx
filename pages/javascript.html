@@ -4,7 +4,7 @@
 <title>cesspool</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="../css/python.css" rel="stylesheet" type="text/css" media="all">
+<link href="../css/page.css" rel="stylesheet" type="text/css" media="all">
 <style>
 
 </style>
@@ -71,10 +71,18 @@ sayHi(); // Runs the function sayHi
   <p>If you want to put JavaScript in your HTML, you put it between an opening <script> and closing </script> tag. These tags mean that whatever is between them is a script and not text to be put onto the web page. The script below inserts the numbers 1 through 10 at the bottom of a webpage:</p>
   <p>The for() loop makes whatever code is between the { and the } happen more than one time. In this case, it keeps looping until numOfTimesAround is equal to 10, then it stops. This means it equals ten. It&#39;s a bit confusing at first, but it works.</p>
   <h2 id="differences-between-java-and-javascript">Differences between Java and Javascript</h2>
-  <h2 id="related-pages">Related pages</h2>
-  <h2 id="references">References</h2>
-  <h2 id="other-websites">Other websites</h2>
-  
+  <ul><li>In Java, to define a variable, you have to say what type of variable it is: a number, a word, a letter, or more. In JavaScript, this is not necessary.</li>
+    <li>In JavaScript, functions are stored as variables (unlike Java). This makes the following code okay in JavaScript:</li></ul>
+  <pre>function sayHi() {
+    alert("Hi!");
+}
+
+sayBye = function() {
+    alert("Bye!");
+}
+
+sayHi();
+sayBye();</pre>
 </section>
 
 <footer>
