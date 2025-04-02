@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
+    scale: 100%;
   }
   
   body {
     font-family: Verdana, Tahoma, sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #3e4b54;
   }
   
   /* Style the header */
@@ -67,4 +71,8 @@ a {
 
 strong a {
   color: #FFFFe4
+}
+
+a {
+  text-decoration: none;
 }

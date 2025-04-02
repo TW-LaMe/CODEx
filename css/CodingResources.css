@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
+    scale: 100%;
   }
   
   body {
     font-family: Verdana, Tahoma, sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #3e4b54;
   }
   
   /* Style the header */
@@ -42,7 +46,7 @@
     -ms-flex: 3;
     flex: 3;
     background-color: beige;
-    padding: 10px;
+    padding-left: 2.5%;
   }
   
   /* Style the footer */
@@ -65,8 +69,9 @@ a {
   color: whitesmoke
 }
 
-h6 em a {
-  color: #3e4b54
+ul li a {
+  color: green;
+  text-decoration: dotted;
 }
 
 a {
