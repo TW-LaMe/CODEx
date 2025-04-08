@@ -5,12 +5,39 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+  <script src="scripts.js"></script>
 
 <h1>Head</h1>
 <p>paragraph.</p>
-<button><a href="https://www.apple.com">i like eating crayons</a></button>
-<
-<footer>foot</footer>
+<audio id="myAudio">
+  <source src="wildmonkeylong.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="myAudio2">
+  <source src="wildmonkey.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+  
+
+<button onclick="playAudio()" type="button">wild animal long</button>
+<button onclick="playAudio2()" type="button">wild animal</button>
+<script>
+  var x = document.getElementById("myAudio"); 
+  
+  function playAudio() { 
+    x.play(); 
+  } 
+  </script>
+  <script>
+    var y = document.getElementById("myAudio2"); 
+    
+    function playAudio2() { 
+      y.play(); 
+    } 
+    </script>
+  <footer>foot</footer>
 
 </body>
 </html>
