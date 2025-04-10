@@ -18,6 +18,9 @@
 
 <section>
   <nav>
+    <p><h2><strong>Chapters</strong></h2></p>
+    <button onclick="playAudio()" type="button">ovear view</button>
+<button onclick="playAudio2()" type="button">pie thon uze</button>
     <ul>
       <li><h2><strong>Summary</strong></h2></li>
       <li><strong>Date of creation: 20 February 1991</strong></li>
@@ -27,6 +30,7 @@
   </nav>
   
   <article>
+
     <h1>Overview</h1>
     <p>Python is a programming language. It was made to be open-source and easy to read. A Dutch programmer named Guido van Rossum made Python in 1991. He named it after the television program Monty Python&#39;s Flying Circus. Many Python examples and tutorials include jokes from the show.</p>
 <p>Python is an interpreted language. Interpreted languages do not need to be compiled to run. A program called an interpreter runs Python code on almost any kind of computer. This means that a programmer can change the code and quickly see the results. This also means Python is slower than a compiled language like C, because it is not turned into machine code ahead of time. Instead, this happens as the program is running.</p>
@@ -60,6 +64,30 @@
 
   </article>
 </section>
+<audio id="myAudio">
+  <source src="../assets/piethonOverview.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="myAudio2">
+  <source src="../assets/wildmonkey.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<button onclick="playAudio()" type="button">skreech</button>
+<button onclick="playAudio2()" type="button">knormal talc</button>
+<script>
+  var x = document.getElementById("myAudio"); 
+  
+  function playAudio() { 
+    x.play(); 
+  } 
+  </script>
+  <script>
+    var y = document.getElementById("myAudio2"); 
+    
+    function playAudio2() { 
+      y.play(); 
+    } 
+    </script>
 
 <footer>
   <p><a href="./browse.html">Return to browse</a> or<a href="../index.html"> Return to home</a></p>
