@@ -13,7 +13,7 @@
 - how to turn it into a site that anyone can interact with
 
 ## something I knew was wish...
-### How to do more complex javascript. Another thing I wish I knew was assembly. Another thing I also knew was C++.
+### How to do more complex javascript. Another thing I wish I knew was assembly. Another thing I also wish I knew was C++.
 
 ## My next project is going to be... 
 ### another github repo
