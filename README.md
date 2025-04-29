@@ -18,8 +18,8 @@
 ## My next project is going to be... 
 ### another github repo
 
-### did how plan doing you on?
-#### By clicking create new repo. I will click create new repo by going to https://www.github.com. I will go to https://www.github.com by connecting to the internet. 
+#### did how plan doing you on?
+##### By clicking create new repo. I will click create new repo by going to https://www.github.com. I will go to https://www.github.com by connecting to the internet. 
 
 ### Author the About
 - certified skibidi toilet
